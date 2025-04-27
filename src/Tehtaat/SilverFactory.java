@@ -3,6 +3,7 @@ package Tehtaat;
 import Astiat.DishInterface;
 import Aterimet.*;
 
+//Factory class for silverware products. Eats silverType and spits out correct Silverware.
 public class SilverFactory extends AbstractFactory {
     @Override
     public SilverWares getType(String silverType) {

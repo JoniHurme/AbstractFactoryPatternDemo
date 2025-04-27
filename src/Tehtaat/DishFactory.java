@@ -3,6 +3,7 @@ package Tehtaat;
 import Astiat.*;
 import Aterimet.SilverWares;
 
+//Factory class for Dish products. Eats dishType and spits out correct Dish.
 public class DishFactory extends AbstractFactory {
     @Override
     public DishInterface getDish(String dishType) {
@@ -18,6 +19,7 @@ public class DishFactory extends AbstractFactory {
         return null;
     }
 
+//    For some reason the other type of product has to be here as well returning null?
     @Override
     public SilverWares getType(String silverType){
         return null;
